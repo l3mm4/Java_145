@@ -24,7 +24,7 @@ public class Pet {
     public String getPetType() {
         return petType;
     }
-    public void setPetType() {
+    public void setPetType(String petType) {
         this.petType = petType;
     }
 
@@ -32,7 +32,7 @@ public class Pet {
     public String getPetName() {
         return petName;
     }
-    public void setPetName() {
+    public void setPetName(String petName) {
         this.petName = petName;
     }
 
@@ -73,6 +73,5 @@ public class Pet {
         return amountDue;
     }
     public void setAmountDue(double amountDue) {
-        this.amountDue = amountDue;
-    }
+        this.amountDue = amountDue;}
 }
